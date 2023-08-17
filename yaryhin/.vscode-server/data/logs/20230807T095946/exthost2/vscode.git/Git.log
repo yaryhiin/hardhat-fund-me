@@ -1,0 +1,25 @@
+2023-08-07 10:00:05.658 [info] Log level: Info
+2023-08-07 10:00:05.658 [info] Validating found git in: "git"
+2023-08-07 10:00:05.658 [info] Using git "2.34.1" from "git"
+2023-08-07 10:00:05.658 [info] > git rev-parse --show-toplevel [1ms]
+2023-08-07 10:00:05.658 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-07 10:00:05.658 [info] > git rev-parse --show-toplevel [2ms]
+2023-08-07 10:00:05.658 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-07 10:00:05.661 [info] > git rev-parse --show-toplevel [1ms]
+2023-08-07 10:00:05.661 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-07 10:00:05.666 [info] > git rev-parse --show-toplevel [2ms]
+2023-08-07 10:00:05.670 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-08-07 10:00:05.677 [info] Open repository: /home/yaryhin/.nvm
+2023-08-07 10:00:05.685 [info] > git config --get commit.template [3ms]
+2023-08-07 10:00:05.689 [info] > git rev-parse --show-toplevel [5ms]
+2023-08-07 10:00:05.689 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-07 10:00:05.694 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [6ms]
+2023-08-07 10:00:05.700 [info] > git rev-parse --show-toplevel [7ms]
+2023-08-07 10:00:05.700 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-07 10:00:05.704 [info] > git rev-parse --show-toplevel [0ms]
+2023-08-07 10:00:05.704 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-07 10:00:05.716 [info] > git status -z -uall [17ms]
+2023-08-07 10:00:05.727 [info] > git config --get commit.template [3ms]
+2023-08-07 10:00:05.727 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [1ms]
+2023-08-07 10:00:05.735 [info] > git status -z -uall [6ms]
+2023-08-07 10:00:06.208 [info] > git check-ignore -v -z --stdin [4ms]

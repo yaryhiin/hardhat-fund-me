@@ -1,0 +1,4 @@
+2023-08-10 20:07:20.400 [error] [RPC Response] PtyService#reviveTerminalProcesses Cannot read properties of undefined (reading 'cwd')
+2023-08-10 21:12:22.395 [error] [RPC Response] PtyService#reviveTerminalProcesses Cannot read properties of undefined (reading 'cwd')
+2023-08-10 21:12:22.427 [info] Expanding terminal instance, old id be2dd2873fe257a7b312ffa5aef22c4c-1 -> new id undefined
+2023-08-10 21:12:22.430 [warning] Couldn't get layout info, a terminal was probably disconnected Could not find pty on pty host

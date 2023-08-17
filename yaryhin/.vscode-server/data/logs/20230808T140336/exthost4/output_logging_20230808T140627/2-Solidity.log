@@ -1,0 +1,23 @@
+[Info  - 2:16:20 PM] Solidity by Nomic Foundation Starting ...
+[Info  - 2:16:20 PM] env: production
+[Info  - 2:16:20 PM] Client starting
+[Info  - 2:16:21 PM] Language server starting
+[Info  - 2:16:21 PM]   Release: hardhat-solidity@0.7.3
+[Info  - 2:16:21 PM]   Environment: production
+[Info  - 2:16:21 PM]   Telemetry Enabled: true
+[Info  - 2:16:21 PM]   Telemetry Tracking Id: 62d12970d8...
+[Info  - 2:16:21 PM]   Workspace Folders:
+[Info  - 2:16:21 PM]     hardhat-fund-me (file:///mnt/c/Users/aderh/Programing/Web-3/hardhat-fund-me)
+[Info  - 2:16:21 PM] Fetching latest solidity versions
+[Info  - 2:16:24 PM] Language server ready
+[Info  - 2:16:30 PM] [indexing] Found projects:
+[Info  - 2:16:30 PM] [indexing] -  Type: Hardhat
+[Info  - 2:16:30 PM] [indexing]    Base path: /mnt/c/Users/aderh/Programing/Web-3/hardhat-fund-me
+[Info  - 2:16:30 PM] [indexing]    Config file: /mnt/c/Users/aderh/Programing/Web-3/hardhat-fund-me/hardhat.config.js
+[Info  - 2:16:30 PM] [indexing] Initializing /mnt/c/Users/aderh/Programing/Web-3/hardhat-fund-me/hardhat.config.js
+[Info  - 2:16:41 PM] [hardhat-fund-me] Error loading HRE: HardhatError: HH210: Redefinition of task verify failed. Unsupported operation adding positional param definitions in an overridden task.
+[Info  - 2:16:41 PM] [hardhat-fund-me] Child process exited: 1
+[Info  - 2:16:41 PM] [indexing] Done /mnt/c/Users/aderh/Programing/Web-3/hardhat-fund-me/hardhat.config.js
+[Info  - 2:16:41 PM] [indexing] Scanning workspace folders for sol files
+[Info  - 2:16:44 PM] [indexing] Scan complete, 20 sol files found
+[Info  - 2:16:45 PM] [indexing] Analyzing 0 solidity files

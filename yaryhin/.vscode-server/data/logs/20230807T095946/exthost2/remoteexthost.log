@@ -1,0 +1,120 @@
+2023-08-07 10:00:03.751 [info] Extension host with pid 925 started
+2023-08-07 10:00:03.768 [info] Lock '/home/yaryhin/.vscode-server/data/User/workspaceStorage/3ab62bf4b6154216565c84277f440084/vscode.lock': Lock acquired.
+2023-08-07 10:00:03.807 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2023-08-07 10:00:03.856 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-08-07 10:00:03.921 [info] Eager extensions activated
+2023-08-07 10:00:03.922 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-08-07 10:00:03.923 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-08-07 10:00:05.533 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2023-08-07 10:01:01.982 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2023-08-07 10:01:49.175 [info] Extension host terminating: received terminate message from renderer
+2023-08-07 10:01:49.176 [info] Lock '/home/yaryhin/.vscode-server/data/User/workspaceStorage/3ab62bf4b6154216565c84277f440084/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-08-07 10:01:49.194 [error] Canceled: Canceled
+	at new h (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:103:56634)
+	at t.O (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:115:8020)
+	at Proxy.N.<computed>.T.charCodeAt.N.<computed> (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:115:5459)
+	at a.g (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:103:77241)
+	at a.executeCommand (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:103:76679)
+	at w.registerCommand.description (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:103:76000)
+	at a.h (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:103:77777)
+	at a.g (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:103:76772)
+	at a.executeCommand (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:103:76679)
+	at Object.executeCommand (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:121:20977)
+	at r.D [as value] (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/extensions/git/dist/main.js:2:1261690)
+	at f.w (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at f.x (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:63:1972)
+	at fire (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:63:2188)
+	at Object.m [as dispose] (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/extensions/git/dist/main.js:2:1277293)
+	at /home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/extensions/git/dist/main.js:2:1282023
+	at Array.forEach (<anonymous>)
+	at g.dispose (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/extensions/git/dist/main.js:2:1282009)
+	at p.<anonymous> (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:99:3381)
+	at p.dispose (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:99:3478)
+	at p.<anonymous> (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/extensions/git/dist/main.js:2:1263703)
+	at p.dispose (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:99:3478)
+	at S (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:13:11731)
+	at r.Z (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:117:9686)
+	at /home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:117:7582
+	at Array.map (<anonymous>)
+	at r.S (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:117:7570)
+	at r.terminate (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:117:7842)
+	at s.terminate (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:121:1506)
+	at C (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:131:32254)
+	at r.value (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:131:30301)
+	at f.w (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at y.fire (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:79:13931)
+	at n.z (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:79:16996)
+	at r.value (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:79:15448)
+	at f.w (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at r.acceptChunk (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:79:11705)
+	at r.value (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:79:10992)
+	at f.w (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at f.u (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:131:19097)
+	at f.acceptFrame (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:131:18903)
+	at c.l (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:131:17536)
+	at /home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:131:14883
+	at Socket.v (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:131:12797)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2023-08-07 10:01:49.198 [error] Canceled: Canceled
+	at new h (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:103:56634)
+	at t.O (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:115:8020)
+	at Proxy.N.<computed>.T.charCodeAt.N.<computed> (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:115:5459)
+	at a.g (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:103:77241)
+	at a.executeCommand (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:103:76679)
+	at w.registerCommand.description (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:103:76000)
+	at a.h (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:103:77777)
+	at a.g (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:103:76772)
+	at a.executeCommand (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:103:76679)
+	at Object.executeCommand (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:121:20977)
+	at t.$ve.set b [as b] (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/extensions/github/dist/extension.js:2:676183)
+	at /home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/extensions/github/dist/extension.js:2:676827
+	at r.value (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/extensions/git/dist/main.js:2:1349176)
+	at f.w (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at f.x (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:63:1972)
+	at fire (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:63:2188)
+	at Object.m [as dispose] (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/extensions/git/dist/main.js:2:1277293)
+	at /home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/extensions/git/dist/main.js:2:1282023
+	at Array.forEach (<anonymous>)
+	at g.dispose (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/extensions/git/dist/main.js:2:1282009)
+	at p.<anonymous> (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:99:3381)
+	at p.dispose (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:99:3478)
+	at p.<anonymous> (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/extensions/git/dist/main.js:2:1263703)
+	at p.dispose (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:99:3478)
+	at S (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:13:11731)
+	at r.Z (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:117:9686)
+	at /home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:117:7582
+	at Array.map (<anonymous>)
+	at r.S (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:117:7570)
+	at r.terminate (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:117:7842)
+	at s.terminate (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:121:1506)
+	at C (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:131:32254)
+	at r.value (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:131:30301)
+	at f.w (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at y.fire (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:79:13931)
+	at n.z (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:79:16996)
+	at r.value (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:79:15448)
+	at f.w (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at r.acceptChunk (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:79:11705)
+	at r.value (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:79:10992)
+	at f.w (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at f.u (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:131:19097)
+	at f.acceptFrame (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:131:18903)
+	at c.l (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:131:17536)
+	at /home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:131:14883
+	at Socket.v (/home/yaryhin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:131:12797)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2023-08-07 10:01:49.199 [info] Extension host with pid 925 exiting with code 0

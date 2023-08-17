@@ -1,0 +1,12 @@
+node_modules
+package.json
+.env
+coverage
+coverage.json
+typechain
+typechain-types
+cache
+artifacts
+README.md
+img
+.*

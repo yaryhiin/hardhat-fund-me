@@ -1,0 +1,22 @@
+[Info  - 12:29:59 PM] Solidity by Nomic Foundation Starting ...
+[Info  - 12:30:00 PM] env: production
+[Info  - 12:30:00 PM] Client starting
+[Info  - 12:30:00 PM] Language server starting
+[Info  - 12:30:00 PM]   Release: hardhat-solidity@0.7.3
+[Info  - 12:30:00 PM]   Environment: production
+[Info  - 12:30:00 PM]   Telemetry Enabled: true
+[Info  - 12:30:00 PM]   Telemetry Tracking Id: 62d12970d8...
+[Info  - 12:30:00 PM]   Workspace Folders:
+[Info  - 12:30:00 PM]     hardhat-simple-storage (file:///mnt/c/Users/aderh/Programing/Web-3/hardhat-simple-storage)
+[Info  - 12:30:00 PM] Fetching latest solidity versions
+[Info  - 12:30:04 PM] Language server ready
+[Info  - 12:30:10 PM] [indexing] Found projects:
+[Info  - 12:30:10 PM] [indexing] -  Type: Hardhat
+[Info  - 12:30:10 PM] [indexing]    Base path: /mnt/c/Users/aderh/Programing/Web-3/hardhat-simple-storage
+[Info  - 12:30:10 PM] [indexing]    Config file: /mnt/c/Users/aderh/Programing/Web-3/hardhat-simple-storage/hardhat.config.js
+[Info  - 12:30:10 PM] [indexing] Initializing /mnt/c/Users/aderh/Programing/Web-3/hardhat-simple-storage/hardhat.config.js
+[Info  - 12:30:18 PM] [hardhat-simple-storage] Local HRE loaded
+[Info  - 12:30:18 PM] [indexing] Done /mnt/c/Users/aderh/Programing/Web-3/hardhat-simple-storage/hardhat.config.js
+[Info  - 12:30:18 PM] [indexing] Scanning workspace folders for sol files
+[Info  - 12:30:22 PM] [indexing] Scan complete, 20 sol files found
+[Info  - 12:30:22 PM] [indexing] Analyzing 1 solidity files

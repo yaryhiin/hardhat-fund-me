@@ -1,0 +1,26 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "files.autoSave": "afterDelay",
+    "npm.keybindingsChangedWarningShown": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "solidity.telemetry": true,
+    "settingsSync.ignoredSettings": [],
+    "[solidity]": {
+        "editor.defaultFormatter": "NomicFoundation.hardhat-solidity"
+    },
+    "editor.formatOnSave": true,
+    "eslint.codeActionsOnSave.rules": null,
+    "window.zoomLevel": -1
+}

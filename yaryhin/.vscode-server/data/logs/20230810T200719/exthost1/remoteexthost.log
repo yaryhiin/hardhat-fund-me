@@ -1,0 +1,21 @@
+2023-08-10 20:07:22.261 [info] Extension host with pid 832 started
+2023-08-10 20:07:22.269 [error] Error: EEXIST: file already exists, open '/home/yaryhin/.vscode-server/data/User/workspaceStorage/be2dd2873fe257a7b312ffa5aef22c4c/vscode.lock'
+2023-08-10 20:07:22.296 [info] Lock '/home/yaryhin/.vscode-server/data/User/workspaceStorage/be2dd2873fe257a7b312ffa5aef22c4c/vscode.lock': Could not acquire lock, checking if the file is stale.
+2023-08-10 20:07:22.357 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2023-08-10 20:07:22.361 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-08-10 20:07:22.519 [info] Lock '/home/yaryhin/.vscode-server/data/User/workspaceStorage/be2dd2873fe257a7b312ffa5aef22c4c/vscode.lock': The pid 824 appears to be gone.
+2023-08-10 20:07:22.519 [info] Lock '/home/yaryhin/.vscode-server/data/User/workspaceStorage/be2dd2873fe257a7b312ffa5aef22c4c/vscode.lock': Deleting a stale lock.
+2023-08-10 20:07:22.541 [info] Lock '/home/yaryhin/.vscode-server/data/User/workspaceStorage/be2dd2873fe257a7b312ffa5aef22c4c/vscode.lock': Lock acquired.
+2023-08-10 20:07:22.963 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-08-10 20:07:22.980 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2023-08-10 20:07:23.117 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-08-10 20:07:23.118 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-08-10 20:07:23.910 [info] ExtensionService#_doActivateExtension NomicFoundation.hardhat-solidity, startup: true, activationEvent: 'workspaceContains:**/hardhat.config.{ts,js},**/foundry.toml,**/truffle-config.js,**/ape-config.yaml'
+2023-08-10 20:07:24.617 [info] Eager extensions activated
+2023-08-10 20:07:24.618 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-08-10 20:07:24.618 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-08-10 20:37:16.705 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2023-08-10 20:37:16.706 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2023-08-10 20:56:20.612 [info] Extension host terminating: received terminate message from renderer
+2023-08-10 20:56:20.613 [info] Lock '/home/yaryhin/.vscode-server/data/User/workspaceStorage/be2dd2873fe257a7b312ffa5aef22c4c/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-08-10 20:56:20.720 [info] Extension host with pid 832 exiting with code 0

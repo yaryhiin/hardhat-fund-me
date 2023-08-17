@@ -1,0 +1,24 @@
+[Info  - 10:12:29 AM] Solidity by Nomic Foundation Starting ...
+[Info  - 10:12:29 AM] env: production
+[Info  - 10:12:30 AM] Client starting
+[Info  - 10:12:31 AM] Language server starting
+[Info  - 10:12:31 AM]   Release: hardhat-solidity@0.7.3
+[Info  - 10:12:31 AM]   Environment: production
+[Info  - 10:12:31 AM]   Telemetry Enabled: true
+[Info  - 10:12:31 AM]   Telemetry Tracking Id: 62d12970d8...
+[Info  - 10:12:31 AM]   Workspace Folders:
+[Info  - 10:12:31 AM]     hardhat-fund-me (file:///mnt/c/Users/aderh/Programing/Web-3/hardhat-fund-me)
+[Info  - 10:12:31 AM] Fetching latest solidity versions
+[Info  - 10:12:32 AM] Language server ready
+[Info  - 10:12:44 AM] [indexing] Found projects:
+[Info  - 10:12:44 AM] [indexing] -  Type: Hardhat
+[Info  - 10:12:44 AM] [indexing]    Base path: /mnt/c/Users/aderh/Programing/Web-3/hardhat-fund-me
+[Info  - 10:12:44 AM] [indexing]    Config file: /mnt/c/Users/aderh/Programing/Web-3/hardhat-fund-me/hardhat.config.js
+[Info  - 10:12:44 AM] [indexing] Initializing /mnt/c/Users/aderh/Programing/Web-3/hardhat-fund-me/hardhat.config.js
+[Info  - 10:13:05 AM] [hardhat-fund-me] Local HRE loaded
+[Info  - 10:13:05 AM] [indexing] Done /mnt/c/Users/aderh/Programing/Web-3/hardhat-fund-me/hardhat.config.js
+[Info  - 10:13:05 AM] [indexing] Scanning workspace folders for sol files
+[Info  - 10:13:11 AM] [indexing] Scan complete, 813 sol files found
+[Info  - 10:13:21 AM] [indexing] Analyzing 3 solidity files
+[Info  - 12:21:35 PM] Telemetry enabled
+[Error - 2:01:05 PM] Cannot read properties of undefined (reading 'split')
